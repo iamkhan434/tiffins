@@ -31,9 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         btnLogout.setOnClickListener {
             userDataProvider.logout()
-
             startActivity(Intent(context, LoginActivity::class.java))
-
             finish()
         }
 
