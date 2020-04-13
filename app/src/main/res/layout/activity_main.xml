@@ -8,11 +8,14 @@
     android:padding="16dp"
     tools:context=".activities.MainActivity">
 
+
     <TextView
         android:id="@+id/tvName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="name"
+        android:text="Name"
+        android:textStyle="bold"
+        android:text
         android:textSize="16sp"/>
 
     <Button
