@@ -55,6 +55,11 @@ class LoginActivity : AppCompatActivity() {
             tvError.text = error
         }
 
+        btnRegister.setOnClickListener {
+            startActivity(Intent(context, RegisterActivity::class.java))
+            finish()
+        }
+
 
     }
 
