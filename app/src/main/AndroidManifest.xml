@@ -11,10 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activities.DishDetailsActivity"></activity>
         <activity
             android:name=".activities.MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
         <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />

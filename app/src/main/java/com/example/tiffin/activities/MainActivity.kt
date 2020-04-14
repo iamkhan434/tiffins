@@ -17,6 +17,7 @@ import com.example.tiffin.fragments.SubscriptionsFragment
 import com.example.tiffin.utils.UserDataProvider
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_main.*
+
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener   {
 
     private lateinit var context: Context

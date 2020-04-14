@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="130dp">
+
+
+    <RelativeLayout
+        android:padding="@dimen/space_small"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgFood"
+            android:src="@drawable/food_1"
+            android:layout_margin="@dimen/space_small"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:text="Dish Name"
+            android:textSize="22sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_margin="@dimen/space_small"
+            android:layout_toEndOf="@id/imgFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/tvHotel"
+            android:text="Hotel Name"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_margin="@dimen/space_small"
+            android:layout_below="@id/tvName"
+            android:layout_toEndOf="@id/imgFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:text="100"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_margin="@dimen/space_small"
+            android:layout_below="@id/tvHotel"
+            android:layout_toEndOf="@id/imgFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imgVeg"
+            android:src="@drawable/ic_veg"
+            android:layout_margin="@dimen/space_small"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
